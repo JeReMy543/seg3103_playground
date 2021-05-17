@@ -46,4 +46,4 @@ Numerator: exit
 ```
 This is the screenshot of the output
 
-![Running Java in the console](tree/main/assets/java.png)
+![Running Java in the console](https://github.com/JeReMy543/seg3103_playground/tree/main/assets)
