@@ -124,3 +124,29 @@ NewmathEx.div(52,26)
 
 With a screenshot from the terminal
 ![Running Java in the console](https://github.com/JeReMy543/seg3103_playground/blob/main/assets/elixiroutput.PNG)
+
+
+### ExUnit
+
+ExUnit is built directly into Elixir (and compiled like above with `mix compile`)
+
+To run the tests
+
+```
+mix test
+```
+
+Here is the output of the tests
+
+```bash
+...
+
+Finished in 0.04 seconds (0.00s async, 0.04s sync)
+1 doctest, 2 tests, 0 failures
+
+Randomized with seed 792000
+```
+
+With a screenshot from the terminal
+
+![Running ExUnit in the console](https://github.com/JeReMy543/seg3103_playground/blob/main/assets/exunit.PNG)
