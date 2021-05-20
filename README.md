@@ -91,3 +91,36 @@ Test run finished after 61 ms
 [         0 tests failed          ]
 
 ```
+
+
+### Elixir
+
+I am running Elixir 12.0 with Erlang 22
+
+```bash
+Erlang/OTP 22 [erts-10.7] [64-bit] [smp:12:12] [ds:12:12:10] [async-threads:1]
+
+Elixir 1.12.0 (compiled with Erlang/OTP 22)
+```
+
+To run the Elixir program (in `newmath_ex`), first I compile it
+
+```bash
+mix compile
+```
+
+Then I run it
+
+```bash
+iex -S mix
+```
+
+Here is an output of the running program
+
+```elixir
+NewmathEx.div(52,26)
+{:ok, 2.0}
+```
+
+With a screenshot from the terminal
+![Running Java in the console](https://github.com/JeReMy543/seg3103_playground/blob/main/assets/elixiroutput.PNG)
