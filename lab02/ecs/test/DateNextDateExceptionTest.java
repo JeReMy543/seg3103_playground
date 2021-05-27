@@ -20,9 +20,9 @@ public class DateNextDateExceptionTest{
     }
     return new Date(y,m,d);
   }
-  
+
   @ParameterizedTest
-  @ValueSource(ints = {15000231, 15000229, 00011020, 14581512, 19750650})
+  @ValueSource(ints = {15000231, 15000229, 14581512, 19750650})
   void exceptionTest(int d) {
     Assertions.assertThrows(IllegalArgumentException.class, () -> {
     intToDate(d);//new Date(d);
