@@ -5,7 +5,7 @@
 | Course | SEG 3103 |
 | Date | Summer 2021 |
 | Professor | Andrew Forward, aforward@uottawa.ca |
-| TA | Zahra Kakavand, zkaka044@uottawa.ca |
+| TA | Henry Chen, zchen229@uottawa.ca |
 | Team | Xinhao Zhang 8761627 |
 
 * [Lab01](lab01)
