@@ -20,3 +20,9 @@
 | 6 | Err3 | Err1 | Fail |
 | 7 | Err3 | Err1 | Fail |
 | 8 | Err1 | Err1 | Pass |
+
+# Junit Parameterized Runner
+
+This is a screenshot of the output
+
+![Running Java in the console](https://github.com/JeReMy543/seg3103_playground/blob/main/lab02/assets/c1.PNG)
