@@ -28,6 +28,10 @@ defmodule Grades.Calculator do
     end
   end
 
+  def calculate_grade(homework,labs,final,midterm) do
+   0.2 * labs + 0.3 * homework + 0.2 * midterm + 0.3 * final
+  end
+
   def letter_grade(%{homework: homework, labs: labs, midterm: midterm, final: final}) do
     avg_homework = avg(homework)
     avg_labs = avg(labs)
@@ -38,7 +42,7 @@ defmodule Grades.Calculator do
     if participate == "EIN" || avg_exams < 0.4 do
       "EIN"
     else
-      mark = 0.2 * avg_labs + 0.3 * avg_homework + 0.2 * midterm + 0.3 * final
+      mark = calculate_grade(avg_homework,avg_labs,final,midterm)
 
       cond do
         mark > 0.895 -> "A+"
@@ -67,7 +71,7 @@ defmodule Grades.Calculator do
     if participate == "EIN" || avg_exams < 0.4 do
       0
     else
-      mark = 0.2 * avg_labs + 0.3 * avg_homework + 0.2 * midterm + 0.3 * final
+      mark = calculate_grade(avg_homework,avg_labs,final,midterm)
 
       cond do
         mark > 0.895 -> 10
