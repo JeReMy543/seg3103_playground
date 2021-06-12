@@ -23,6 +23,10 @@ class FizzbuzzTest {
 		assertEquals("buzz", obj.fizzbuzz(7));
 	}
 
+	@Test
+	void Fizzbuzz_test3() {
+		assertEquals("fizzbuzz", obj.fizzbuzz(35));
+	}
 
 
 }

@@ -33,4 +33,4 @@ Here is the screenshots of the tests
 ![Running Java in the console](https://github.com/JeReMy543/seg3103_playground/blob/main/lab04/assets/fizz.PNG)
 ![Running Java in the console](https://github.com/JeReMy543/seg3103_playground/blob/main/lab04/assets/tic.PNG)
 
-### Tic and Fizzbuzz in elixir
+### Fizzbuzz in Java
