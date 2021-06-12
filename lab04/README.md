@@ -34,3 +34,7 @@ Here is the screenshots of the tests
 ![Running Java in the console](https://github.com/JeReMy543/seg3103_playground/blob/main/lab04/assets/tic.PNG)
 
 ### Fizzbuzz in Java
+
+Here is a screenshot of the tests I implemented in the fizzbuzzTest. First 4 tests passed and the last one failed.
+
+![Running Java in the console](https://github.com/JeReMy543/seg3103_playground/blob/main/lab04/assets/test.PNG)
