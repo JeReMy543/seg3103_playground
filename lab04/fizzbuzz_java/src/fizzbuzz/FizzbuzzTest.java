@@ -8,11 +8,11 @@ import org.junit.jupiter.api.Test;
 
 class FizzbuzzTest {
 	Fizzbuzz obj = new Fizzbuzz();
-	
+
 
 	@Test
 	void Fizzbuzz_test() {
-		assertEquals(9, obj.fizzbuzz(9));
+		assertEquals("9", obj.fizzbuzz(9));
 	}
 
 }
