@@ -21,4 +21,5 @@ This is the result of the code
 ![stubbed code result](https://github.com/JeReMy543/seg3103_playground/blob/main/lab05/assets/Web.PNG)
 
 When implementing assignment2 code to the lab. There is an arithmetic erro arised as screenshot showed below
+
 ![erro](https://github.com/JeReMy543/seg3103_playground/blob/main/lab05/assets/erro.PNG)
