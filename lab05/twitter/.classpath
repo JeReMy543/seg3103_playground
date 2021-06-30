@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="lib" path="lib/easymock-4.3.jar"/>
+	<classpathentry kind="lib" path="lib/junit-platform-console-standalone-1.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/mockito-core-3.11.2.jar"/>
+	<classpathentry kind="lib" path="lib/mockito-junit-jupiter-3.11.2.jar"/>
+	<classpathentry kind="lib" path="lib/objenesis-3.2.jar"/>
+	<classpathentry kind="output" path="dist"/>
+</classpath>

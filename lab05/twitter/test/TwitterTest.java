@@ -54,31 +54,42 @@ class TwitterTest {
         assertEquals(false, actual);
     }
 
-    // @Test
-    // void isMentionned_lookForAtSymbol() {
-    //   // Assuming a tweet like "hello @me"
-    //   // isMentionned("me") should be true
-    //   // isMentionned("you") should be false
-    // }
+    @Test
+    void isMentionned_lookForAtSymbol() {
 
-    // @Test
-    // void isMentionned_dontReturnSubstringMatches() {
-    //   // Assuming a tweet like "hello @meat"
-    //   // isMentionned("me") should be false
-    //   // isMentionned("meat") should be true
-    // }
+    	Twitter twitter = new Twitter();
+    	assertEquals(true, twitter.isMentionned("me"));
+    	assertEquals(false, twitter.isMentionned("you"));
+    }
 
-    // @Test
-    // void isMentionned_superStringNotFound() {
+    @Test
+    void isMentionned_dontReturnSubstringMatches() {
+    //	Assuming a tweet like "hello @meat"
+    //  isMentionned("me") should be false
+    //  isMentionned("meat") should be true
+    	Twitter twitter = new Twitter();        	
+    	assertEquals(false, twitter.isMentionned("me"));
+    	assertEquals(true, twitter.isMentionned("meat"));
+    	
+    	}
+
+    @Test
+    void isMentionned_superStringNotFound() {
     //   // Assuming a tweet like "hello @me"
     //   // isMentionned("me") should be true
     //   // isMentionned("meat") should be false
-    // }
+    	Twitter twitter = new Twitter();        	
+    	assertEquals(true, twitter.isMentionned("me"));
+    	assertEquals(false, twitter.isMentionned("meat"));
+    }
 
-    // @Test
-    // void isMentionned_handleNull() {
+    @Test
+    void isMentionned_handleNull() {
     //   // Assuming no tweet is available (i.e. null)
     //   // isMentionned("me") should be false
     //   // isMentionned("meat") should be false
-    // }
+    	Twitter twitter = new Twitter();        	
+    	assertEquals(false, twitter.isMentionned("me"));
+    	assertEquals(false, twitter.isMentionned("meat"));
+    }
 }
