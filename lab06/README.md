@@ -17,7 +17,7 @@ Below is the screenshots of the running program.
 
 
 This is the screenshots of the admin page
-![admin](https://github.com/JeReMy543/seg3103_playground/blob/main/lab05/assets/admin.PNG)
+![admin](https://github.com/JeReMy543/seg3103_playground/blob/main/lab06/assets/admin.PNG)
 
 This is the test result.
-![test](https://github.com/JeReMy543/seg3103_playground/blob/main/lab05/assets/test.PNG)
+![test](https://github.com/JeReMy543/seg3103_playground/blob/main/lab06/assets/test.PNG)
