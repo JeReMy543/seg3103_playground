@@ -45,4 +45,4 @@ This is an additional test.
 ![test](https://github.com/JeReMy543/seg3103_playground/blob/main/lab06/assets/newtest.PNG)
 
 and this is the new test result.
-![test](https://github.com/JeReMy543/seg3103_playground/blob/main/lab06/assets/mytest.PNG)
+![test](https://github.com/JeReMy543/seg3103_playground/blob/main/lab06/assets/myTest.PNG)
