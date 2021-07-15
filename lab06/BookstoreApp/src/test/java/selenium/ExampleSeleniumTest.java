@@ -51,7 +51,7 @@ class ExampleSeleniumTest {
   public static void tearDownAfterClass() throws Exception {
     server.destroy();
   }
-
+/*
   @Test
   void test1() {
     WebElement element = driver.findElement(By.id("title"));
@@ -74,9 +74,16 @@ class ExampleSeleniumTest {
     expected = "Bienvenu";
     actual = welcome.getText();
     assertEquals(expected, getWords(actual)[0]);
-  }
+  }*/
 
-  private String[] getWords(String s) {
-    return s.split("\\s+");
+  @Test
+  void myTest() {
+    WebElement searchBtn = driver.findElement(By.id("searchBtn"));
+    searchBtn.click();
+    String expectedBookName = "Core Servlets and JavaServer Pages 2nd Edition (Volume 1)";
+    WebElement bookName = driver.findElement(By.id("title-hall001"));
+    String actual = bookName.getText();
+    assertEquals(expectedBookName, actual);
+
   }
 }
