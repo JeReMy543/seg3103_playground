@@ -21,6 +21,6 @@ This is stopbugs running before fixing bug.
 ![stopbugs1](https://github.com/JeReMy543/seg3103_playground/blob/main/lab07/assets/stopbug1.PNG)
 
 
-This is stopbugs running after fixing bug.
+This is stopbugs running after fixing bug (left one bug that I don't know how to fix).
 
 ![stopbugs2](https://github.com/JeReMy543/seg3103_playground/blob/main/lab07/assets/stopbug2.PNG)
